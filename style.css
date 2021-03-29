@@ -1,0 +1,176 @@
+
+
+.hidden {
+    display: none;
+}
+
+
+
+.coluna {
+    flex-basis: 50%;
+}
+
+
+
+
+/* BODY */
+body{
+    background-color: rgb(80, 37, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+
+
+/* HEADER */
+header {
+    background-color:tan;
+    border: 3px solid rgb(80, 37, 6);
+}
+
+header figure img{
+    max-width:300px;
+    max-height:500px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*PAGINA INICIAL */
+
+main h1{
+    color:rgb(80, 37, 6);
+    padding: 0.5rem;
+    font-size: 3.0rem;
+}
+
+main h2{
+    color:rgb(80, 37, 6);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+main p{
+    padding: 0.5rem;
+    
+}
+
+main p a {
+    color:rgb(80, 37, 6);
+}
+
+main .container{
+    border: 2px solid rgb(80, 37, 6);
+    background-color:rgb(246, 240, 233);
+    margin: 0 auto;
+    max-width: 1350px;
+    padding: 25px;
+}
+
+main .coluna section{
+    border: 1px solid rgb(80, 37, 6);
+    margin: 0 10px 20px;
+    padding: 20px;
+    min-height: 187px;
+}
+
+main .coluna section h2{
+    margin: 0 0 15px;
+}
+
+main .coluna section p{
+    padding: 0.5rem;
+}
+
+main .coluna img{
+    text-align: center;
+    width: 260px;
+}
+
+
+
+
+
+/*FOOTER */
+
+footer .container{
+    border: 3px solid rgb(80, 37, 6);
+    padding: 1.5rem;
+    background-color:tan;
+    margin: 0;
+}
+
+footer h2{
+    color:rgb(80, 37, 6);
+}
+
+footer nav ul{
+    padding-left: 1rem;
+    list-style-type: none;    
+}
+
+footer nav ul li{
+    margin: 5px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav ul li a{
+    color:rgb(80, 37, 6);
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+    text-decoration: none;
+}
+
+footer nav ul li a img{
+    width: 40px;
+}
+
+footer .nav ul li a figcaption{
+    list-style-type: none;
+}
+
+
+
+
+/*EXTRAS */
+/*MEDIAS */
+
+
+@media only screen and (min-width: 768px) {
+    .linha {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+ 
+    }
+
+    footer nav ul{
+        display: flex;
+        justify-content: center;      
+    }
+
+    footer nav ul li{
+        margin: 5px 30px;
+    }
+
+    main .coluna img{
+        width: 600px;
+    }
+
+    header figure img{
+        max-width:1782px;
+        max-height:437px;
+    }
+
+    main .container{
+        border: 3px solid rgb(80, 37, 6);
+        max-width: 1350px;
+        padding: 30px;
+    }
+    
+}
